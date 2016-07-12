@@ -36,7 +36,7 @@
 
         function SearchQueryStringParser(args) {
             this.fields = args.fields;
-            
+
             this.defaults = {
                 limit: 25,
                 offset: 0,
@@ -69,12 +69,10 @@
             };
 
             if (params.sort) {
-                queryOptions.order = [
-                    {
+                queryOptions.order = [{
                         field: params.sort.replace('-', ''),
                         direction: params.sort.indexOf('-') === 0 ? 'desc' : 'asc'
-                    }
-                ];
+                }];
             }
 
             return queryOptions;

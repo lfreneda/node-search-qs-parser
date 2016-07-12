@@ -27,5 +27,10 @@
   "homepage": "https://github.com/lfreneda/node-search-qs-parser#readme",
   "dependencies": {
     "moment": "^2.14.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
   }
 }
