@@ -1,0 +1,31 @@
+{
+  "name": "node-search-qs-parser",
+  "version": "1.0.0",
+  "description": "Utility which parses given query string for querying/searching",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfreneda/node-search-qs-parser.git"
+  },
+  "keywords": [
+    "query",
+    "string",
+    "search",
+    "rest",
+    "restful",
+    "querying",
+    "paging"
+  ],
+  "author": "Luiz Freneda <lfreneda@gmail.com> (http://www.freneda.com.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfreneda/node-search-qs-parser/issues"
+  },
+  "homepage": "https://github.com/lfreneda/node-search-qs-parser#readme",
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}
